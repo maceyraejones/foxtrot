@@ -1,20 +1,14 @@
 /* Nav Bar */
-
-.navbar-light {
-    display: none;
-  }
-
   
   .navbar-light .navbar-nav .nav-link {
     padding: 25px 10px;
-    color: hsla(86, 35%, 40%, 0.75); 
     font-weight: 500;
     outline: none;
   }
   
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: hsla(86, 35%, 40%, 0.75);
+    color: white; 
  }
   
   @media (max-width: 991.98px) {
@@ -23,26 +17,21 @@
     }
   }
 
+/* Progess Bar  */
 
-/* Back to Top  */
+.progress {
+  border-radius: 10px;
+}
 
-.back-to-top {
-    position: fixed;
-    display: none;
-    width: 30px;
-    text-align: center;
-    right: 30px;
-    bottom: 30px;
-    z-index: 11;
-    animation: action 1s infinite alternate;
-  }
-  
-  @keyframes action {
-    0% {
-      transform: translateY(0);
-    }
-    100% {
-      transform: translateY(-15px);
-    }
-  }
+.progress .progress-bar {
+  width: 0px;
+  border-radius: 10px;
+  transition: 2s;
+}
 
+
+  /* Footer */
+
+footer a {
+  text-decoration: none;
+}
