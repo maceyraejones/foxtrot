@@ -30,8 +30,23 @@
 }
 
 
+
   /* Footer */
 
 footer a {
   text-decoration: none;
 }
+
+.fa {
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    color: #00b489;
+}
+
