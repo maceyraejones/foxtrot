@@ -17,6 +17,16 @@
     }
   }
 
+
+/* Cards  */
+
+#card1, #card2, #card3 {
+    text-align: center;
+}
+
+#skillcard {
+    text-align: center;
+}
 /* Progess Bar  */
 
 .progress {
@@ -27,6 +37,36 @@
   width: 0px;
   border-radius: 10px;
   transition: 2s;
+}
+
+#htmlskills {
+    background-color: #00b489;
+    width: 95%;
+}
+
+#cssskills {
+    background-color: #00b489;
+    width: 85%;
+}
+
+#jsskills {
+    background-color: #00b489;
+    width: 90%;
+}
+
+#pythonskills {
+    background-color: #00b489;
+    width: 95%;
+}
+
+#rubyskills {
+    background-color: #00b489;
+    width: 90%;
+}
+
+#githubskills {
+    background-color: #00b489;
+    width: 85%;
 }
 
 
@@ -50,3 +90,9 @@ footer a {
     color: #00b489;
 }
 
+#link1, #link2 {
+    color:white;
+}
+#link1:hover, #link2:hover {
+    color: #00b489;
+}
